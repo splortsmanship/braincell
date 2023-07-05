@@ -1,6 +1,12 @@
 body {
   background-color: #261C15;
 }
+.header {
+  background: #FF1654;
+  text-align: center;
+  color: #261C15;
+  padding: 60px;
+}
 
 /* colours:
 247BA0 Cerulean
