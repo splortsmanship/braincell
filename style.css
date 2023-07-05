@@ -29,7 +29,10 @@ body {
 .menu li a:hover {
   background-color: #247BA0;
 }
-
+h1 {
+  text-align: center;
+  color: #FFFFFF
+}
 /* colours:
 247BA0 Cerulean
 70C1B3 Verdigris
