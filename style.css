@@ -8,6 +8,26 @@ body {
   padding: 5px;
   font-size: 50px;
 }
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #B2DBBF;
+}
+.menu li {
+  float: left;
+}
+.menu li a {
+  display: block;
+  color: #261C15;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.menu li a:hover {
+  background-color: #247BA0;
+}
 
 /* colours:
 247BA0 Cerulean
