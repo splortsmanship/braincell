@@ -68,6 +68,14 @@ h1 {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #247BA0; color: white;}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /* colours:
 247BA0 Cerulean
 70C1B3 Verdigris
