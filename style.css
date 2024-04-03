@@ -18,26 +18,9 @@ body {
   background-color: #B2DBBF;
 }
 
-.menu li {
-  float: left;
-}
-
-.menu li a {
-  display: block;
-  color: #261C15;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.menu li a:hover {
-  background-color: #247BA0;
-}
-
 h1 {
   text-align: center;
-  color: #FFFFFF
+  color: #FFFFFF;
 }
 
 .dropbtn {
@@ -96,13 +79,36 @@ h2 {
 }
 
 .info {
+  margin: auto;
   width: 80%;
 }
 
 .timeline {
-  background-color: #261C15;
+  background-color: #FFFFFF;
   color: #261C1F;
-  width: 25%;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.mdmg {
+  color: #850023;
+  font-weight: bold;
+}
+
+.dmg {
+  text-align: center;
+}
+
+.pdmg {
+  color: #15465B;
+  font-weight: bold;
+}
+
+.udmg {
+  color: #1F5C15;
+  font-weight: bold;
 }
 
 /* colours:
