@@ -98,7 +98,7 @@ h2 {
 }
 
 .mdmg::before {
-  content: "✨";
+  content: "🔮";
 }
 
 .dmg {
@@ -120,7 +120,7 @@ h2 {
 }
 
 .udmg::before {
-  content: "⁉️";
+  content: "🎱";
 }
 
 h3 {
