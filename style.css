@@ -1,6 +1,7 @@
 body {
   background-color: #261C15;
 }
+
 .header {
   background: #FF1654;
   text-align: center;
@@ -8,6 +9,7 @@ body {
   padding: 5px;
   font-size: 50px;
 }
+
 .menu ul {
   list-style-type: none;
   margin: 0;
@@ -15,9 +17,11 @@ body {
   overflow: hidden;
   background-color: #B2DBBF;
 }
+
 .menu li {
   float: left;
 }
+
 .menu li a {
   display: block;
   color: #261C15;
@@ -26,13 +30,16 @@ body {
   text-decoration: none;
   font-weight: bold;
 }
+
 .menu li a:hover {
   background-color: #247BA0;
 }
+
 h1 {
   text-align: center;
   color: #FFFFFF
 }
+
 .dropbtn {
   background-color: #70C1B3;
   color: black;
@@ -52,7 +59,7 @@ h1 {
   position: absolute;
   background-color: #70C1B3;
   min-width: 90px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -63,17 +70,40 @@ h1 {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-.dropdown:hover .dropbtn {background-color: #247BA0; color: white;}
+.dropdown:hover .dropbtn {
+  background-color: #247BA0;
+  color: white;
+}
 
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+h2 {
+  text-align: center;
+  color: #FF1654;
+}
+
+.info {
+  width: 80%;
+}
+
+.timeline {
+  background-color: #261C15;
+  color: #261C1F;
+  width;
+  25%;
 }
 
 /* colours:
