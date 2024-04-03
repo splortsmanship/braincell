@@ -86,7 +86,7 @@ h2 {
 .timeline {
   background-color: #FFFFFF;
   color: #261C1F;
-  width: 50%;
+  width: 60%;
   margin: auto;
   padding: 10px;
   border-radius: 10px;
@@ -95,6 +95,10 @@ h2 {
 .mdmg {
   color: #850023;
   font-weight: bold;
+}
+
+.mdmg::before {
+  content: "✨";
 }
 
 .dmg {
@@ -106,9 +110,17 @@ h2 {
   font-weight: bold;
 }
 
+.pdmg::before {
+  content: "🥊";
+}
+
 .udmg {
   color: #1F5C15;
   font-weight: bold;
+}
+
+.udmg::before {
+  content: "⁉️";
 }
 
 h3 {
