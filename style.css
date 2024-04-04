@@ -179,6 +179,13 @@ h3 {
   padding: 10px;
 }
 
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
 /* colours:
 247BA0 Cerulean
 70C1B3 Verdigris
