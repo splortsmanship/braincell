@@ -131,10 +131,14 @@ h3 {
 .sidebar {
   position: -webkit-sticky;
   position: sticky;
+  top: 0;
   width: 20%;
   background: #70C1B3;
   padding: 10px;
   margin-top: 5px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #247BA0;
 }
 
 .sidebar a {
@@ -147,6 +151,32 @@ h3 {
 
 .sidebar a:hover {
   color: #FF1654;
+}
+
+.sidehr {
+  color: #247BA0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  background-color: white;
+  color: #261C1F;
+}
+
+.mech {
+  margin-left: 15%;
+}
+
+.exp {
+  padding: 10px;
 }
 
 /* colours:
